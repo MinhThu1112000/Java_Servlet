@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="thiet_bi_dien_servlet_jr02_v2:war exploded">
+    <output-path>$PROJECT_DIR$/target/thiet_bi_dien_servlet_jr02_v2</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>thiet_bi_dien_servlet_jr02_v2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="thiet_bi_dien_servlet_jr02_v2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.20" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/thiet_bi_dien_servlet_jr02_v2/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="thiet_bi_dien_servlet_jr02_v2/web/Web" />
+    </root>
+  </artifact>
+</component>
